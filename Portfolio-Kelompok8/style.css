@@ -359,6 +359,30 @@ label {
   width: 100%;
 }
 
+
+#fotoWidi {
+ 
+  transition: transform 0.3s;
+}
+
+
+#fotoWidi:hover {
+  transform: scale(1.05);
+ 
+  content: url('img/widi-kecil.jpg');
+}
+#fotoIlham {
+ 
+  transition: transform 0.3s;
+}
+
+
+#fotoIlham:hover {
+  transform: scale(1.05);
+ 
+  content: url('img/ilham-kecil.jpg');
+}
+
 .newSeason {
   display: flex;
 }
