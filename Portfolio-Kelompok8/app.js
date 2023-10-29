@@ -6,7 +6,8 @@ const products = [
     id: 1,
     title: "Ilham Dean Abdillah",
     job: "Python Backend Developer",
-    productDesc: "Selamat datang di dunia Python ala Orang Sunda yang bikin kamu ngakak! Di balik senyum manis dan bahasa Sunda yang khas, mereka adalah para penggemar Python yang handal. Mereka bisa 'nyunda' kode-kode sulit jadi lebih lucu daripada pentas wayang golek. Yuk, kita eksplor lebih dalam ke dalam keajaiban komedi Python versi Orang Sunda!",
+    productDesc:
+      "Selamat datang di dunia Python ala Orang Sunda yang bikin kamu ngakak! Di balik senyum manis dan bahasa Sunda yang khas, mereka adalah para penggemar Python yang handal. Mereka bisa 'nyunda' kode-kode sulit jadi lebih lucu daripada pentas wayang golek. Yuk, kita eksplor lebih dalam ke dalam keajaiban komedi Python versi Orang Sunda!",
     colors: [
       {
         code: "black",
@@ -38,15 +39,16 @@ const products = [
     id: 3,
     title: "I Gede Widiantara",
     job: "Flutter Developer & Machine Learning Specialist",
-    productDesc: "Halo semuanya! Siapa bilang orang Bali hanya pandai menari dan berselancar? Ada satu Bali-er (orang Bali) yang tidak hanya pandai menghibur, tapi juga jago dalam dunia Machine Learning! Jadi, mari kita eksplorasi dunia Machine Learning dengan penuh semangat dan senyum di wajah, bersama Widi! 🌴💻😄",
+    productDesc:
+      "Halo semuanya! Siapa bilang orang Bali hanya pandai menari dan berselancar? Ada satu Bali-er (orang Bali) yang tidak hanya pandai menghibur, tapi juga jago dalam dunia Machine Learning! Jadi, mari kita eksplorasi dunia Machine Learning dengan penuh semangat dan senyum di wajah, bersama Widi! 🌴💻😄",
     colors: [
       {
-        code: "#09b1ec",
-        img: "./img/foto-widi-color1.png",
+        code: "#377e7f",
+        img: "./img/foto-widi-baru-c1.png",
       },
       {
-        code: "green",
-        img: "./img/foto-widi-color2.png",
+        code: "#845027",
+        img: "./img/foto-widi-baru-c2.png",
       },
     ],
   },

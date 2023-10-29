@@ -77,8 +77,8 @@ nav {
 }
 
 .sliderBg {
-  width: 750px;
-  height: 750px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
   position: absolute;
 }
@@ -129,7 +129,7 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-  background-color: darkblue;
+  background-color: cornflowerblue;
 }
 .sliderItem:nth-child(2) .sliderBg {
   background-color: rebeccapurple;
