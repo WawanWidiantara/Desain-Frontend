@@ -4,16 +4,16 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "Air Force",
+    title: "Ilham Dean Abdillah",
     price: 119,
     colors: [
       {
         code: "black",
-        img: "./img/air.png",
+        img: "./img/foto-ilham.png",
       },
       {
         code: "darkblue",
-        img: "./img/air2.png",
+        img: "./img/foto-ilham3.png",
       },
     ],
   },
