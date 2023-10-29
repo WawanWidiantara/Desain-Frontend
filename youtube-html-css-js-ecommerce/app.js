@@ -5,75 +5,48 @@ const products = [
   {
     id: 1,
     title: "Ilham Dean Abdillah",
-    price: 119,
+    price: "Python Backend Developer",
+    productDesc: "Selamat datang di dunia Python ala Orang Sunda yang bikin kamu ngakak! Di balik senyum manis dan bahasa Sunda yang khas, mereka adalah para penggemar Python yang handal. Mereka bisa 'nyunda' kode-kode sulit jadi lebih lucu daripada pentas wayang golek. Yuk, kita eksplor lebih dalam ke dalam keajaiban komedi Python versi Orang Sunda!",
     colors: [
       {
         code: "black",
-        img: "./img/foto-ilham.png",
+        img: "./img/foto-ilham-color1.png",
       },
       {
         code: "darkblue",
-        img: "./img/foto-ilham3.png",
+        img: "./img/foto-ilham-color2.png",
       },
     ],
   },
   {
     id: 2,
-    title: "Air Jordan",
-    price: 149,
+    title: "Cahya Mustofa",
+    price: "Frontend Developer",
+    productDesc: "Saya suka membaca buku dan bermain game.",
     colors: [
       {
-        code: "lightgray",
-        img: "./img/jordan.png",
+        code: "purple",
+        img: "./img/foto-cahya-color1.png",
       },
       {
-        code: "green",
-        img: "./img/jordan2.png",
+        code: "yellow",
+        img: "./img/foto-cahya-color2.png",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazer",
-    price: 109,
+    title: "I Gede Widiantara",
+    price: "Flutter Developer & Machine Learning Specialist",
+    productDesc: "Halo semuanya! Siapa bilang orang Bali hanya pandai menari dan berselancar? Ada satu Bali-er (orang Bali) yang tidak hanya pandai menghibur, tapi juga jago dalam dunia Machine Learning! Jadi, mari kita eksplorasi dunia Machine Learning dengan penuh semangat dan senyum di wajah, bersama Widi! 🌴💻😄",
     colors: [
       {
-        code: "lightgray",
-        img: "./img/blazer.png",
+        code: "#09b1ec",
+        img: "./img/foto-widi-color1.png",
       },
       {
         code: "green",
-        img: "./img/blazer2.png",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Crater",
-    price: 129,
-    colors: [
-      {
-        code: "black",
-        img: "./img/crater.png",
-      },
-      {
-        code: "lightgray",
-        img: "./img/crater2.png",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Hippie",
-    price: 99,
-    colors: [
-      {
-        code: "gray",
-        img: "./img/hippie.png",
-      },
-      {
-        code: "black",
-        img: "./img/hippie2.png",
+        img: "./img/foto-widi-color2.png",
       },
     ],
   },
@@ -84,6 +57,7 @@ let choosenProduct = products[0];
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
+const currentProductDesc = document.querySelector(".productDesc");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
 
@@ -97,7 +71,8 @@ menuItems.forEach((item, index) => {
 
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "$" + choosenProduct.price;
+    currentProductPrice.textContent = choosenProduct.price;
+    currentProductDesc.textContent = choosenProduct.productDesc;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors

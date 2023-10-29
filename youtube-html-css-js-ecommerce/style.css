@@ -129,7 +129,7 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-  background-color: #369e62;
+  background-color: darkblue;
 }
 .sliderItem:nth-child(2) .sliderBg {
   background-color: rebeccapurple;
@@ -195,7 +195,7 @@ nav {
   height: 100vh;
   background-color: whitesmoke;
   position: relative;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .payment {
@@ -283,7 +283,7 @@ label {
 }
 
 .productImg {
-  width: 50%;
+  height: 100%;
 }
 
 .productDetails {
