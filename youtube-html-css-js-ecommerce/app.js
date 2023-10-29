@@ -5,7 +5,7 @@ const products = [
   {
     id: 1,
     title: "Ilham Dean Abdillah",
-    price: "Python Backend Developer",
+    job: "Python Backend Developer",
     productDesc: "Selamat datang di dunia Python ala Orang Sunda yang bikin kamu ngakak! Di balik senyum manis dan bahasa Sunda yang khas, mereka adalah para penggemar Python yang handal. Mereka bisa 'nyunda' kode-kode sulit jadi lebih lucu daripada pentas wayang golek. Yuk, kita eksplor lebih dalam ke dalam keajaiban komedi Python versi Orang Sunda!",
     colors: [
       {
@@ -21,7 +21,7 @@ const products = [
   {
     id: 2,
     title: "Cahya Mustofa",
-    price: "Frontend Developer",
+    job: "Frontend Developer",
     productDesc: "Saya suka membaca buku dan bermain game.",
     colors: [
       {
@@ -37,7 +37,7 @@ const products = [
   {
     id: 3,
     title: "I Gede Widiantara",
-    price: "Flutter Developer & Machine Learning Specialist",
+    job: "Flutter Developer & Machine Learning Specialist",
     productDesc: "Halo semuanya! Siapa bilang orang Bali hanya pandai menari dan berselancar? Ada satu Bali-er (orang Bali) yang tidak hanya pandai menghibur, tapi juga jago dalam dunia Machine Learning! Jadi, mari kita eksplorasi dunia Machine Learning dengan penuh semangat dan senyum di wajah, bersama Widi! 🌴💻😄",
     colors: [
       {
@@ -56,7 +56,7 @@ let choosenProduct = products[0];
 
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
-const currentProductPrice = document.querySelector(".productPrice");
+const currentProductJob = document.querySelector(".productJob");
 const currentProductDesc = document.querySelector(".productDesc");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
@@ -71,7 +71,7 @@ menuItems.forEach((item, index) => {
 
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = choosenProduct.price;
+    currentProductJob.textContent = choosenProduct.job;
     currentProductDesc.textContent = choosenProduct.productDesc;
     currentProductImg.src = choosenProduct.colors[0].img;
 
